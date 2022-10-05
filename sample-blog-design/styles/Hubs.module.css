@@ -1,0 +1,70 @@
+.hubContainer{
+    width: 85%;
+    margin-top:50pt;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 220pt 220pt 220pt 220pt;
+    gap: 30px;
+
+}
+.topicContainer{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+    border-radius: 10px;
+    height: 280pt;
+    position: relative;
+    cursor: pointer;
+    overflow: scroll;}
+.topicContainer >div {
+    width: 100%;
+}
+.topicImage{
+    height: 100pt;
+    position: relative;
+    text-align: center;
+    background-color: rgb(189, 245, 189);
+}
+.topicName{
+    padding: 10px;
+    padding-top: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.topicDescription{
+    padding: 10px;
+    overflow: auto;
+    height: 80pt;
+}
+.modules{
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.container{
+    width: 100%;
+
+}
+.detailsContainer{
+    padding: 40px;
+    margin-top: 15pt;
+    margin-bottom: 50pt;
+    /* background-color: rgb(229, 234, 235); */
+}
+
+.titleDesc{
+    width: 60%;
+    margin: auto;
+}
+.titleDesc p {
+    margin-top: 35pt;
+}
+.btn{
+    padding: 14px;
+    font-size: 16pt;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(24, 96, 214);
+ 
+}

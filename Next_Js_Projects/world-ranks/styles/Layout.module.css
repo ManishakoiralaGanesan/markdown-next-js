@@ -1,0 +1,31 @@
+.container {
+    padding: 24px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+   }
+   .header{
+       font-size: 32px;
+       font-weight: bold;
+       color: rgb(13, 137, 137);
+       margin-bottom: 32px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .main {
+     
+   }
+   
+   .footer {
+    text-align: center;
+    font-size: 1rem;
+    margin-top:32px
+   }
+   
+   
+   
+   @media (max-width: 600px) {
+     
+   }
+   
